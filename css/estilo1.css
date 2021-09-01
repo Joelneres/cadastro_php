@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("foto-1.jpg");
+    background-position: 50% 70%;
+    font-family: arial;
+    color: white;
+}
+
+#btn{
+
+    width: 440px;
+}
+
+input{
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-size: 15pt;
+    padding: 10px 20px;
+    background-color: rgb(255,255,255,0.01);
+    color: white;
+    outline: none;
+}
+div#corpo-form{
+   /* background-color: red;*/
+    width: 420px;
+    margin: 150px auto 0px auto;
+}
+
+div#corpo-form-cad{
+    /* background-color: red;*/
+     width: 420px;
+     margin: 90px auto 0px auto;
+ }
+a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: block;
+}
+div#corpo-form h1,div#corpo-form-cad{
+    text-align: center;
+    padding: 20px;
+}
+a:hover{
+    text-decoration: underline;
+}
+input[type=submit]{
+    background-color: #ff0066;
+    border: none;
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: #fff;
+}
